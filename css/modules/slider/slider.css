@@ -1,0 +1,19 @@
+.founder-slider{
+    box-sizing: border-box;
+}
+.founder-slider__control{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.founder-slider__slides{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.founder-slider__slide{
+    list-style: none;
+    min-width: 100%;
+    transition: .5s ease;
+}

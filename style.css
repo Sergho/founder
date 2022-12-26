@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.founder-slider{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.founder-slider__control{
+    bottom: -50px;
+}
+.founder-slider__prev, .founder-slider__next{
+    font-size: 36px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.founder-slider__slide{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+}
