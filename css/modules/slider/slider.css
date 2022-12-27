@@ -8,12 +8,14 @@
     transform: translate(-50%, 0);
 }
 .founder-slider__slides{
+    overflow: hidden;
+}
+.founder-slider__track{
     display: flex;
     flex-wrap: nowrap;
-    overflow: hidden;
+    transition: .5s ease;
 }
 .founder-slider__slide{
     list-style: none;
     min-width: 100%;
-    transition: .5s ease;
 }
